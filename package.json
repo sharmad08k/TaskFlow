@@ -1,0 +1,14 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow - Team Task Manager with RBAC",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client",
+    "postinstall": "npm run install:all && npm run build:client"
+  }
+}
