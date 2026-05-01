@@ -10,5 +10,8 @@
     "dev:client": "cd client && npm run dev",
     "build": "npm run build:client",
     "postinstall": "npm run install:all && npm run build:client"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   }
 }
