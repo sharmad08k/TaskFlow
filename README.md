@@ -101,7 +101,7 @@ EtharaAI/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/sharmad08k/TaskFlow.git
 cd EtharaAI
 
 # Install all dependencies
