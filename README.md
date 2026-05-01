@@ -1,24 +1,24 @@
-# TaskFlow — Team Task Manager
+# TaskFlow Team Task Manager
 
 A full-stack web application for team task management with role-based access control (Admin/Member), project management, task tracking with Kanban boards, and a real-time dashboard.
 
-## 🚀 Live Demo
+## Live Demo
 
-**Live URL:** [Coming Soon — Railway Deployment]
+**Live URL:** [Coming Soon Railway Deployment]
 
-## 📸 Features
+## Features
 
-- **🔐 Authentication** — Secure signup/login with JWT tokens
-- **📁 Project Management** — Create, update, and delete projects with color coding
-- **👥 Team Management** — Add/remove members with Admin & Member roles
-- **✅ Task Tracking** — Kanban-style board with To Do, In Progress, Review, Done columns
-- **📊 Dashboard** — Overview of tasks, status distribution, overdue items, and recent activity
-- **🛡️ Role-Based Access Control**
+- **Authentication** Secure signup/login with JWT tokens
+- **Project Management** Create, update, and delete projects with color coding
+- **Team Management** Add/remove members with Admin & Member roles
+- **Task Tracking** Kanban-style board with To Do, In Progress, Review, Done columns
+- **Dashboard** Overview of tasks, status distribution, overdue items, and recent activity
+- **Role-Based Access Control**
   - **Admin**: Full project control, manage members, create/edit/delete tasks
   - **Member**: View tasks, update task status
-- **📱 Responsive Design** — Works on desktop, tablet, and mobile
+- **Responsive Design** Works on desktop, tablet, and mobile
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology                          |
 |------------|-------------------------------------|
@@ -30,7 +30,7 @@ A full-stack web application for team task management with role-based access con
 | Styling    | Custom CSS (90s Newspaper Neo-Brutalist) |
 | Deployment | Railway                             |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 EtharaAI/
@@ -53,7 +53,7 @@ EtharaAI/
 └── README.md
 ```
 
-## 🔑 API Endpoints
+## API Endpoints
 
 ### Auth
 | Method | Endpoint               | Access  | Description         |
@@ -91,7 +91,7 @@ EtharaAI/
 
 > *Members can only update task status; Admins can update all fields.
 
-## 🏗️ Local Development
+## Local Development
 
 ### Prerequisites
 - Node.js 18+
@@ -121,19 +121,20 @@ npm run dev:client
 
 The frontend runs on `http://localhost:5173` and the backend on `http://localhost:5000`.
 
-## 🌐 Railway Deployment
+## Railway Deployment
 
 1. Push code to GitHub
-2. Go to [Railway](https://railway.app) → New Project → Deploy from GitHub
+2. Go to [Railway](https://railway.app) -> New Project -> Deploy from GitHub
 3. Add a MongoDB service (Railway Plugin or MongoDB Atlas)
 4. Set environment variables:
-   - `MONGODB_URI` — your MongoDB connection string
-   - `JWT_SECRET` — a strong random secret
-   - `JWT_EXPIRES_IN` — `7d`
-   - `NODE_ENV` — `production`
-   - `CLIENT_URL` — your Railway frontend URL
-5. Deploy — Railway auto-detects `railway.toml` config
+   - `MONGODB_URI` your MongoDB connection string
+   - `JWT_SECRET` a strong random secret
+   - `JWT_EXPIRES_IN` `7d`
+   - `NODE_ENV` `production`
+   - `CLIENT_URL` your Railway frontend URL
+5. Deploy Railway auto-detects `railway.toml` config
 
-## 👤 Author
+## Author
 
 Built for EtharaAI Team Task Manager Assignment.
+
